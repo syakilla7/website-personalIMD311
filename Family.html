@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Family</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <body>
+                <div style="text-align: center;">
+                    <h1>Family</h1>
+
+                <div>
+                   
+                        <h2>I have 13 siblings 7 females 6 males including me and I am the youngest</h2>
+                        <img src="image/13.jpg" alt="Family" width="600" height="545"><html>
+                        
+                </div>
+        </div>
+        <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <video id="video1" width="420">
+              <source src="video/anakbuah.mp4" type="video/mp4">
+              <source src="mov_bbb.ogg" type="video/ogg">
+              Your browser does not support HTML video.
+            </video>
+          </div> 
+          
+          <script> 
+          var myVideo = document.getElementById("video1"); 
+          
+          function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          } 
+          
+          function makeBig() { 
+              myVideo.width = 560; 
+          } 
+          
+          function makeSmall() { 
+              myVideo.width = 320; 
+          } 
+          
+          function makeNormal() { 
+              myVideo.width = 420; 
+          } 
+          </script> 
+          
+        
+          </body> 
+          </html>
+       
+        </div>
+
+
+        
+        
+        
+    </body>
+</html>
